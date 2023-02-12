@@ -44,7 +44,7 @@ function App() {
     setAnchorElUser(null);
   };
 
-  const [value, setValue] = React.useState(2);
+  const [value] = React.useState(5);
 
   return (
     <div className="App">
