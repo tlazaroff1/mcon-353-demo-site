@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content:flex-start;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: 060F37;
 }
 
 .App-link {
@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+.css-1q39md6-MuiButtonBase-root-MuiButton-root{
+  color: #060F37 !important;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+  background-color: white !important;
+}
+
+.cardGrid{
+  display: grid;
+  grid-template-columns: auto auto;
+    text-align: center;
+    grid-gap: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    margin-top: 5%;
+    width: 100%;
+    margin-top: 0%;
+    padding: auto;
+    height: fit-content;
+    margin-bottom: 5%;;
+}
+
+.welcome{
+  grid-column: 1/span 2;
+  width: 100%;
+  background-image: url('background4.jpg');
+}
+
+#welcomeTo{
+  font-weight: bold !important;
+  font-size: 3em;
+  margin-bottom: 1%;
+  color: #060F37 !important;
+}
+
+.title{
+  grid-column: 1/span 2;
+  color: #060F37 !important;
+  background-color: #D5A0F3;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  margin-top: 0%;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.firstCard{
+  justify-self: flex-end !important;
+
+}
+
+.secondCard{
+  justify-self: flex-start !important;
+}
+.css-fjql9l-MuiPaper-root-MuiCard-root{
+  height: fit-content;
+}
+
