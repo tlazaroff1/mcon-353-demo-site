@@ -21,13 +21,22 @@ import * as React from "react";
 import "./App.css";
 import { Home } from "./Components/home/home";
 import { Todo } from "./Components/todo/todo";
-// import Rating from "@mui/material/Rating";
-
+import {HashRouter, Routes, Route} from "react-router-dom";
+import { Header } from "./Components/header/header";
 // const pages = ["Soups", "Breads", "Sides", "Mains", "Dessert"];
 
 
+
 function App() {
-  return <Todo/>;
+  return (
+    <HashRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/todo" element={<Todo />} />
+      </Routes>
+    </HashRouter>
+    );
 }
 export default App;
 

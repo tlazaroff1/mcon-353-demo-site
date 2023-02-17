@@ -21,33 +21,33 @@ import onionRoll from "./../../onionRolls.jpeg";
 import "./../../App.css";
 import Rating from "@mui/material/Rating";
 
-const pages = ["Soups", "Breads", "Sides", "Mains", "Dessert"];
+//const pages = ["Soups", "Breads", "Sides", "Mains", "Dessert"];
 
 export const Home = () =>  {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
+  // const [anchorElNav, setAnchorElNav] = React.useState(null);
+  // const [anchorElUser, setAnchorElUser] = React.useState(null);
 
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
+  // const handleOpenNavMenu = (event) => {
+  //   setAnchorElNav(event.currentTarget);
+  // };
+  // const handleOpenUserMenu = (event) => {
+  //   setAnchorElUser(event.currentTarget);
+  // };
 
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
+  // const handleCloseNavMenu = () => {
+  //   setAnchorElNav(null);
+  // };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+  // const handleCloseUserMenu = () => {
+  //   setAnchorElUser(null);
+  // };
 
   const [value] = React.useState(5);
 
   return (
     <div className="App">
       <header className="App-header">
-        <AppBar position="static">
+        {/* <AppBar position="static">
           <Container maxWidth="xl">
             <Toolbar disableGutters>
               <Typography
@@ -117,8 +117,8 @@ export const Home = () =>  {
                 ))}
               </Box>
             </Toolbar>
-          </Container>
-        </AppBar>
+          </Container> 
+        </AppBar>*/}
         <div className="cardGrid">
           <div className="welcome">
             <p id="welcomeTo">Welcome To...</p>
