@@ -17,6 +17,7 @@ import { useNavigate } from "react-router-dom";
 const pages = [
   { name: "Home", path: "/" },
   { name: "Todo", path: "/todo" },
+  { name: "Chat", path: "/chat" },
   { name: "Recipes" },
 ];
 
@@ -28,9 +29,6 @@ export function Header() {
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
   };
 
   const handleCloseNavMenu = (page) => {
