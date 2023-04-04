@@ -27,6 +27,12 @@ const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(1),
   textAlign: "center",
   color: theme.palette.text.secondary,
+  textAlign: "left !important",
+  maxWidth: "200px",
+  minWidth: "100px",
+  backgroundColor: "#d5a0f3 !important",
+  margin: "6px 6px 6px 6px !important",
+  overflow: visible,
 }));
 
 export const Chat = () => {
