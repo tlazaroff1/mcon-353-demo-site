@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.42d12029.css",
-    "main.js": "/static/js/main.ef94af3f.js",
-    "static/js/787.5d944677.chunk.js": "/static/js/787.5d944677.chunk.js",
-    "static/media/flatbreadSalad.jpg": "/static/media/flatbreadSalad.c24d68627295dde1d9a8.jpg",
-    "static/media/background4.jpg": "/static/media/background4.bbee9c0a5c33ae53e1f8.jpg",
-    "static/media/onionRolls.jpeg": "/static/media/onionRolls.86fe6c452057b2912735.jpeg",
-    "static/media/logo.png": "/static/media/logo.099c45bb38a132af4b69.png",
-    "index.html": "/index.html",
-    "main.42d12029.css.map": "/static/css/main.42d12029.css.map",
-    "main.ef94af3f.js.map": "/static/js/main.ef94af3f.js.map",
-    "787.5d944677.chunk.js.map": "/static/js/787.5d944677.chunk.js.map"
+    "main.css": "/mcon-353-demo-site/static/css/main.b30e0881.css",
+    "main.js": "/mcon-353-demo-site/static/js/main.ec968813.js",
+    "static/js/787.5d944677.chunk.js": "/mcon-353-demo-site/static/js/787.5d944677.chunk.js",
+    "static/media/flatbreadSalad.jpg": "/mcon-353-demo-site/static/media/flatbreadSalad.c24d68627295dde1d9a8.jpg",
+    "static/media/background4.jpg": "/mcon-353-demo-site/static/media/background4.bbee9c0a5c33ae53e1f8.jpg",
+    "static/media/onionRolls.jpeg": "/mcon-353-demo-site/static/media/onionRolls.86fe6c452057b2912735.jpeg",
+    "static/media/logo.png": "/mcon-353-demo-site/static/media/logo.099c45bb38a132af4b69.png",
+    "index.html": "/mcon-353-demo-site/index.html",
+    "main.b30e0881.css.map": "/mcon-353-demo-site/static/css/main.b30e0881.css.map",
+    "main.ec968813.js.map": "/mcon-353-demo-site/static/js/main.ec968813.js.map",
+    "787.5d944677.chunk.js.map": "/mcon-353-demo-site/static/js/787.5d944677.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42d12029.css",
-    "static/js/main.ef94af3f.js"
+    "static/css/main.b30e0881.css",
+    "static/js/main.ec968813.js"
   ]
 }
