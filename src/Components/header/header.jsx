@@ -38,9 +38,9 @@ export function Header() {
   };
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
-        <Toolbar disableGutters>
+    <AppBar position="static" backgroundColor="white">
+      <Container maxWidth="xl" className="header1">
+        <Toolbar disableGutters className="header">
           <Typography
             sx={{
               mr: 2,
@@ -82,10 +82,13 @@ export function Header() {
             >
               {pages.map((page) => (
                 <MenuItem
+                  className="buttons"
                   key={page.name}
                   onClick={() => handleCloseNavMenu(page)}
                 >
-                  <Typography textAlign="center">{page.name}</Typography>
+                  <Typography className="buttons" textAlign="center">
+                    {page.name}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -99,9 +102,13 @@ export function Header() {
           >
             <img src={logo} alt="recipeCornerLogo" width={200} />
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box
+            sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
+            className="buttons"
+          >
             {pages.map((page) => (
               <Button
+                className="buttons"
                 key={page.name}
                 onClick={() => handleCloseNavMenu(page)}
                 sx={{ my: 2, color: "white", display: "block" }}

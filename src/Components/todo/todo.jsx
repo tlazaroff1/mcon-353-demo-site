@@ -63,7 +63,12 @@ export const Todo = () => {
             endAdornment: (
               <InputAdornment position="end">
                 <IconButton color="#d5a0f3 " onClick={addTodo} size="large">
-                  <AddIcon size="large" />
+                  <AddIcon
+                    size="large"
+                    sx={{
+                      color: "#d5a0f3",
+                    }}
+                  />
                 </IconButton>
               </InputAdornment>
             ),
@@ -79,7 +84,11 @@ export const Todo = () => {
                 key={index}
                 secondaryAction={
                   <IconButton edge="end" onClick={() => removeItem(todo)}>
-                    <DeleteIcon />
+                    <DeleteIcon
+                      sx={{
+                        color: "#d5a0f3",
+                      }}
+                    />
                   </IconButton>
                 }
                 disablePadding
@@ -96,6 +105,9 @@ export const Todo = () => {
                       //tabIndex={-1}
                       //disableRipple
                       //  inputProps={{ "aria-labelledby": labelId }}
+                      sx={{
+                        color: "#d5a0f3",
+                      }}
                     />
                   </ListItemIcon>
                   <ListItemText className="text">{todo.title}</ListItemText>

@@ -138,7 +138,7 @@ export const Chat = () => {
   );
   return (
     <Box width="70%" id="chat">
-      <Box className="chat" display={"flex"}>
+      <Box className="chat" display={"flex"} height="auto">
         <CssBaseline />
         <Box width="30%" height="600px">
           <Drawer
@@ -156,7 +156,11 @@ export const Chat = () => {
           >
             <Toolbar>
               <InputAdornment position="start" fontSize="2rem">
-                <ChatIcon />
+                <ChatIcon
+                  sx={{
+                    color: "#d5a0f3",
+                  }}
+                />
               </InputAdornment>
               <Typography variant="h6" align="center" marginLeft="6px">
                 Chats
@@ -294,7 +298,12 @@ export const Chat = () => {
                       onClick={() => postMessage()}
                       size="large"
                     >
-                      <SendIcon size="large" />
+                      <SendIcon
+                        size="large"
+                        sx={{
+                          color: "#d5a0f3",
+                        }}
+                      />
                     </IconButton>
                   </InputAdornment>
                 ),
