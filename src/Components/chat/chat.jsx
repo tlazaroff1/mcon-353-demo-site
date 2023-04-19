@@ -147,6 +147,7 @@ export const Chat = () => {
               flexShrink: 1,
               "& .MuiDrawer-paper": {
                 boxSizing: "border-box",
+                position: "relative",
               },
             }}
             variant="permanent"
