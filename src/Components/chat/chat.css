@@ -10,13 +10,6 @@
   border: 0 !important;
   border-bottom: 1px solid #060f37 !important;
 }
-.css-gtporz-MuiTypography-root,
-.css-ahj2mt-MuiTypography-root,
-.css-ahj2mt-MuiTypography-root,
-.css-1x51dt5-MuiInputBase-input-MuiInput-input,
-.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
-  color: #060f37 !important;
-}
 
 .main {
   padding: 0 !important;
@@ -25,24 +18,16 @@
   padding: 0 !important;
 }
 
-.css-49ifcl-MuiPaper-root-MuiAppBar-root {
+/*.css-49ifcl-MuiPaper-root-MuiAppBar-root {
   position: relative !important;
   width: 100%;
 }
-.css-yypv7-MuiPaper-root-MuiAppBar-root {
-  position: relative !important;
-  left: 0 !important;
-  top: 0 !important;
-  width: 100%;
-}
-
+*/
 .css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
   left: auto !important;
   position: relative !important;
 }
-.css-yypv7-MuiPaper-root-MuiAppBar-root {
-  width: 100% !important;
-}
+
 .css-uqwprf-MuiGrid-root {
   height: 500px !important;
   width: auto !important;
@@ -58,7 +43,7 @@
   bottom: 0 !important;
 }
 
-.css-1633um2-MuiPaper-root {
+/*.css-1633um2-MuiPaper-root {
   text-align: left !important;
   max-width: 200px;
   min-width: 100px;
@@ -66,7 +51,7 @@
   margin: 6px 6px 6px 6px !important;
   overflow: visible;
 }
-
+*/
 .main {
   overflow-y: auto !important;
 }
@@ -74,6 +59,12 @@
 .appBar {
   background-color: white !important;
   border-bottom: 2px solid #060f37;
+  width: 100% !important;
+  position: relative !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 0 !important;
+  color: #060f37 !important;
 }
 .divider {
   border-bottom: 2px solid #060f37 !important;

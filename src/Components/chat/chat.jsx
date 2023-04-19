@@ -32,7 +32,7 @@ const Item = styled(Paper)(({ theme }) => ({
   minWidth: "100px",
   backgroundColor: "#d5a0f3 !important",
   margin: "6px 6px 6px 6px !important",
-  overflow: visible,
+  overflow: "visible",
 }));
 
 export const Chat = () => {
@@ -151,6 +151,7 @@ export const Chat = () => {
             }}
             variant="permanent"
             anchor="left"
+            position="relative"
           >
             <Toolbar>
               <InputAdornment position="start" fontSize="2rem">
@@ -220,6 +221,8 @@ export const Chat = () => {
                   noWrap
                   component="div"
                   overflow="visible"
+                  width="100%"
+                  color="#060f37"
                 >
                   {currentChat && currentChat.name} Messages{" "}
                 </Typography>
@@ -252,7 +255,14 @@ export const Chat = () => {
                 overflow="auto"
               >
                 {messages.map((message) => (
-                  <Item>
+                  <Item
+                    textAlign="left"
+                    maxWidth="200px"
+                    minWidth="100px"
+                    backgroundColor="#d5a0f3"
+                    margin="6px 6px 6px 6px"
+                    overflow="visible"
+                  >
                     <Typography key={message.id}>
                       {message.username}: {message.text}
                     </Typography>
