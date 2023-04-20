@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mcon-353-demo-site/static/css/main.aa80d634.css",
+    "main.css": "/mcon-353-demo-site/static/css/main.b879728c.css",
     "main.js": "/mcon-353-demo-site/static/js/main.8cfeaa50.js",
     "static/js/787.5d944677.chunk.js": "/mcon-353-demo-site/static/js/787.5d944677.chunk.js",
     "static/media/flatbreadSalad.jpg": "/mcon-353-demo-site/static/media/flatbreadSalad.c24d68627295dde1d9a8.jpg",
@@ -8,12 +8,12 @@
     "static/media/onionRolls.jpeg": "/mcon-353-demo-site/static/media/onionRolls.86fe6c452057b2912735.jpeg",
     "static/media/logo.png": "/mcon-353-demo-site/static/media/logo.099c45bb38a132af4b69.png",
     "index.html": "/mcon-353-demo-site/index.html",
-    "main.aa80d634.css.map": "/mcon-353-demo-site/static/css/main.aa80d634.css.map",
+    "main.b879728c.css.map": "/mcon-353-demo-site/static/css/main.b879728c.css.map",
     "main.8cfeaa50.js.map": "/mcon-353-demo-site/static/js/main.8cfeaa50.js.map",
     "787.5d944677.chunk.js.map": "/mcon-353-demo-site/static/js/787.5d944677.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa80d634.css",
+    "static/css/main.b879728c.css",
     "static/js/main.8cfeaa50.js"
   ]
 }
