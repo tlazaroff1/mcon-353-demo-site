@@ -13,7 +13,6 @@ import "./../../App.css";
 import logo from "./../../logo.png";
 import { useNavigate } from "react-router-dom";
 
-//const pages = ["Home", "Todo", "Recipes", "Breads", "Sides", "Mains", "Dessert"];
 const pages = [
   { name: "Home", path: "/" },
   { name: "Todo", path: "/todo" },

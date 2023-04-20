@@ -14,24 +14,7 @@
 .main {
   padding: 0 !important;
 }
-.css-1jmjcem {
-  padding: 0 !important;
-}
 
-/*.css-49ifcl-MuiPaper-root-MuiAppBar-root {
-  position: relative !important;
-  width: 100%;
-}
-*/
-/*.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
-  left: auto !important;
-  position: relative !important;
-}*/
-
-/*.css-uqwprf-MuiGrid-root {
-  height: 500px !important;
-  width: auto !important;
-}*/
 .messages {
   width: 100% !important;
   border-bottom: 1px solid #060f37 !important;
@@ -43,15 +26,6 @@
   bottom: 0 !important;
 }
 
-/*.css-1633um2-MuiPaper-root {
-  text-align: left !important;
-  max-width: 200px;
-  min-width: 100px;
-  background-color: #d5a0f3 !important;
-  margin: 6px 6px 6px 6px !important;
-  overflow: visible;
-}
-*/
 .main {
   overflow-y: auto !important;
 }
@@ -73,4 +47,13 @@
 .list {
   height: 465px !important;
   overflow: auto !important;
+}
+
+#standard-basic {
+  padding-top: 15px !important;
+  font-size: 1.2rem !important;
+}
+
+#standard-basic::after {
+  border-bottom: solid 2px #060f37 !important;
 }

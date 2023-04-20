@@ -18,23 +18,3 @@
 .contentBox {
   border-bottom: 1.5px solid #060f37 !important;
 }
-
-.css-v4u5dn-MuiInputBase-root-MuiInput-root:after {
-  border-bottom: 2px solid #060f37 !important;
-}
-
-.css-v4u5dn-MuiInputBase-root-MuiInput-root:hover:not(
-    .Mui-disabled,
-    .Mui-error
-  ):before {
-  border-bottom: 1px solid #060f37 !important;
-}
-
-.css-1x51dt5-MuiInputBase-input-MuiInput-input {
-  font-size: 1.2rem !important;
-  padding-top: 15px !important;
-}
-.css-et1ao3-MuiTypography-root {
-  color: #060f37 !important;
-  font-size: 1.2rem !important;
-}
